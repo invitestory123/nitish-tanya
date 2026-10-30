@@ -31,6 +31,33 @@ window.WEDDING_DATA = {
     footerDateLocation: "21 · 11 · 2026 · Zirakpur",
   },
 
+  events: [
+    {
+      title: "Engagement",
+      date: "20TH NOV 2026",
+      time: "4:00 PM ONWARDS",
+      note: "Ring Ceremony & Celebrations",
+    },
+    {
+      title: "Mehendi & Sangeet",
+      date: "20TH NOV 2026",
+      time: "7:30 PM ONWARDS",
+      note: "Music, Dance & Henna Celebrations",
+    },
+    {
+      title: "Haldi",
+      date: "21ST NOV 2026",
+      time: "8:00 AM ONWARDS",
+      note: "Turmeric Ritual & Auspicious Blessings",
+    },
+    {
+      title: "Wedding",
+      date: "21ST NOV 2026",
+      time: "7:30 PM ONWARDS",
+      note: "Baraat, Varmala & Sacred Pheras",
+    },
+  ],
+
   venue: {
     name: "Master Farm Resort",
     address: "Zirakpur-Patiala Highway, Rampur Kalan, Zirakpur, Punjab 140603",
@@ -41,7 +68,6 @@ window.WEDDING_DATA = {
   images: {
     coupleHero: "./editable/assets/couple-hero.png",
     mapPreview: "./editable/assets/map-preview.jpg",
-    events: "./editable/assets/events.jpg",
     groom: "./editable/assets/groom.jpg",
     bride: "./editable/assets/bride.jpg",
   },

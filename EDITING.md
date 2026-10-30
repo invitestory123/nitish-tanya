@@ -34,10 +34,16 @@ Configured in `venue` block:
 - `locationShort`: `"Zirakpur, Punjab"`
 - `mapsUrl`: `"https://www.google.com/maps/search/?api=1&query=Master+Farms+Resort+Zirakpur"`
 
+### Functions & Ceremonies (Events)
+Configured in `events` array:
+- `title`: Event name (`"Engagement"`, `"Mehendi & Sangeet"`, `"Haldi"`, `"Wedding"`)
+- `date`: Date label (`"20TH NOV 2026"`, `"21ST NOV 2026"`)
+- `time`: Time label (`"4:00 PM ONWARDS"`, `"7:30 PM ONWARDS"`, `"8:00 AM ONWARDS"`)
+- `note`: Subtitle or ceremonial note
+
 ### Images & Media
 - Groom photo: `editable/assets/groom.jpg`
 - Bride photo: `editable/assets/bride.jpg`
-- Functions & Ceremonies card: `editable/assets/events.jpg`
 - Couple hero illustration: `editable/assets/couple-hero.png`
 - Map preview image: `editable/assets/map-preview.jpg`
 - Background music: `editable/assets/bg-music.mp3` (Kaafi Hai Na Instrumental)
