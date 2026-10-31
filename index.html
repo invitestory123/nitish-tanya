@@ -72,7 +72,19 @@
       @keyframes audioWave1 { 0% { height: 4px; } 100% { height: 16px; } }
       @keyframes audioWave2 { 0% { height: 16px; } 100% { height: 6px; } }
       @keyframes audioWave3 { 0% { height: 6px; } 100% { height: 18px; } }
-      @keyframes audioWave4 { 0% { height: 15px; } 100% { height: 5px; } }
+      /* Fix descender clipping (e.g. 'y' in Tanya) with gold foil gradient */
+      .text-gold-foil {
+        display: inline-block;
+        padding-bottom: 0.24em;
+        margin-bottom: -0.20em;
+        padding-top: 0.05em;
+        margin-top: -0.05em;
+        overflow: visible;
+      }
+      .font-display.text-gold-foil {
+        padding-bottom: 0.28em;
+        margin-bottom: -0.22em;
+      }
     </style>
   </head>
   <body>
